@@ -1,5 +1,7 @@
 # MaLei LinkedList (C++ 链表实现)
 
+> 首先，马垒（MaLei）牛逼。
+
 这是一个使用 C++ 从零手写实现的单链表（Singly Linked List）项目。采用哨兵头节点（Sentinel Head Node）设计，并基于 CMake 进行工程构建。
 
 ## ✨ 核心功能 (Features)
