@@ -1,4 +1,5 @@
 build/
+.vecode/
 .vs/
 *.exe
 *.obj

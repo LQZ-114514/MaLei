@@ -1,0 +1,10 @@
+^D:\PROJECTS\TREE\BUILD\CMAKEFILES\79272902D7E81C488BB94D69EB56DD91\GENERATE.STAMP.RULE
+setlocal
+D:\cmake-4.4.3-windows-x86_64\bin\cmake.exe -SD:/Projects/Tree -BD:/Projects/Tree/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projects/Tree/build/Tree.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

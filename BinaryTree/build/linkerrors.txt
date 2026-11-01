@@ -1,0 +1,11 @@
+================================================================================
+Linker Errors
+Generated: 2026-10-22T12:53:51.755Z
+Total Errors: 2
+================================================================================
+
+[LNK2019] (MSVC)
+无法解析的外部符号 main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号 [D:\Projects\Tree\build\Tree.vcxproj]
+
+[LNK1120] (MSVC)
+1 个无法解析的外部命令 [D:\Projects\Tree\build\Tree.vcxproj]
