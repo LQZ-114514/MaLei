@@ -1,0 +1,10 @@
+^D:\PROJECTS\MALEI\HASHTABLE\BUILD\CMAKEFILES\5F2C6DEE0D9DF6B7DEB3758617484ACF\GENERATE.STAMP.RULE
+setlocal
+D:\cmake-4.4.3-windows-x86_64\bin\cmake.exe -SD:/Projects/MaLei/HashTable -BD:/Projects/MaLei/HashTable/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projects/MaLei/HashTable/build/MaLei_HashTable.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
